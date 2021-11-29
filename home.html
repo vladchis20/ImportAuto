@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ro">
+
+<!--
+<?php
+$conn = new mysqli("localhost", "root", "", "labor10");
+
+if (!$conn) {
+  die("Connection failed: " . mysqli_connect_error());
+}
+?>
+-->
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stilizareHome.css">
+    <title>ImportAuto.ro</title>
+
+    <style type="text/css">
+        body {
+            margin-left: 0px;
+            margin-top: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+        }
+    </style>
+</head>
+
+<body class="Page">
+    <div class="Header">
+        <h>ImportAuto.ro</h>
+    </div>
+    <!-- Text introducere pe site -->
+    <p>Bine ați venit pe ImportAuto.ro, cel mai mare site de vânzări de mașini din România.</p>
+    <br>
+    <div class="Content">
+        <div class="Menu">
+            <!-- butoane cu comenzi pentru site -->
+            <a href="selectDB.php" class="Butoane">Vizualizare baza de date</a>
+            <br>
+            <br>
+            <a href="updateDB.php" class="Butoane">Actualizare baza de date</a>
+            <br>
+            <br>
+            <a href="insertDB.php" class="Butoane">Inserare in baza de date</a>
+            <br>
+            <br>
+            <a href="deleteDB.php" class="Butoane">Stergere din baza de date</a>
+            <br>
+            <br>
+            <a href="logout-user.php" class="Butoane">Logout</a>
+        </div>
+        <!-- Imagine cu o masina -->
+        <div class="Poza"> <img src="VW_Arteon.png" alt="VW Arteon" width="540" height="360"> </div>
+    </div>
+</body>
+
+</html>
